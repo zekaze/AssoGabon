@@ -26,6 +26,15 @@
     </div>
 </div>
 
+<div class="video text-center">
+    <!--
+    Pour intégrer une nouvelle vidéo,
+    Remplacez la valeur "2wH2UAPpWJA" par la valeur se trouvant à la fin de la vidéo que vous souhaitez ajouter. Exemple "NCapjewxfHw" de
+    https://www.youtube.com/watch?v=NCapjewxfHw
+    -->
+    <iframe width="100%" height="315" src="https://www.youtube.com/embed/2wH2UAPpWJA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <div class="row">
     <div class="col-md-7 col-sm-6">
         <div class="title">
