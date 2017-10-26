@@ -29,6 +29,7 @@
                                 <li <?php echo kz_set_active('membres');?>><a href="?s=membres"><i class="fa fa-users"></i> Membres de l'association</a></li>
                                 <li <?php echo kz_set_active('documents');?>><a href="?s=documents"><i class="fa fa-file"></i> Documents</a></li>
                                 <li <?php echo kz_set_active('projets');?>><a href="?s=projets"><i class="fa fa-suitcase"></i> Projets</a></li>
+                                <li <?php echo kz_set_active('contact');?>><a href="?s=contact"><i class="fa fa-envelope-o"></i> Contacter</a></li>
                             </ul>
 
                         <?php include_once kz_afficher_contenu();?>

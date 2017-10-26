@@ -34,6 +34,9 @@ function kz_set_active($param = null){
             case 'projets':
                 $active = 'projets';
                 break;
+            case 'contact':
+                $active = 'contact';
+                break;
             default:
                 $active = 'general';
         }
@@ -55,6 +58,9 @@ function kz_afficher_contenu($user_type = null){
             case 'documents':
                 $page_content = 'inc/content_documents.php';
                 break;
+            case 'contact':
+                $page_content = 'inc/content_contact.php';
+                break;
             default:
                 $page_content = 'inc/content_expert.php';
         }
@@ -72,6 +78,9 @@ function kz_afficher_contenu($user_type = null){
                     break;
                 case 'projets':
                     $page_content = 'inc/content_projets.php';
+                    break;
+                case 'contact':
+                    $page_content = 'inc/content_contact.php';
                     break;
                 default:
                     $page_content = 'inc/content_general.php';

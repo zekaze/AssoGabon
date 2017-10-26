@@ -25,6 +25,7 @@
                         <ul class="tab-menu exp">
                             <li <?php echo kz_set_active('general');?>><a href="?s=general&u=expert"><i class="fa fa-home"></i> Accueil</a></li>
                             <li <?php echo kz_set_active('documents');?>><a href="?s=documents&u=expert"><i class="fa fa-file"></i> Documents</a></li>
+                            <li <?php echo kz_set_active('contact');?>><a href="?s=contact&u=expert"><i class="fa fa-envelope-o"></i> Contacter</a></li>
                         </ul>
 
                         <?php include kz_afficher_contenu('expert');?>
