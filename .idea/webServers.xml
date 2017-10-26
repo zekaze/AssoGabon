@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5b49714-5a17-4805-9152-c1446552ac41" name="AssoGabon" url="http://ssh.alexandre-kaze.com">
+        <fileTransfer host="ssh.alexandre-kaze.com" port="22" rootFolder="/www/asso" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

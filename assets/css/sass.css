@@ -674,6 +674,32 @@ footer {
     width: 100%;
     height: 100%; }
 
+.section-outils {
+  margin-bottom: 20px; }
+  .section-outils .h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #13498f;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #eee; }
+  .section-outils .groupe-outils {
+    margin-bottom: 15px; }
+    .section-outils .groupe-outils .h4 {
+      text-transform: uppercase;
+      color: #3cb651;
+      font-size: 14px;
+      font-weight: 700; }
+    .section-outils .groupe-outils a {
+      display: block;
+      padding: 5px;
+      font-size: 13px; }
+    .section-outils .groupe-outils a:nth-of-type(odd) {
+      background-color: #eee; }
+
+.blog-post.article {
+  padding: 10px; }
+
 @media (max-width: 991px) {
   .columns {
     display: inherit; }

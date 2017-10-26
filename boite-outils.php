@@ -32,10 +32,217 @@
                                 <button type="button" class="btn btn-default btn-search-submit">Rechercher</button>
                             </form>
 
+                            <div class="section-outils">
+                                <div class="h3">Outils d'ingénierie de projet</div>
 
-                            <div class="col-md-12 col-sm-12 col-xs-12  nopadding list-document">
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 0 à 2 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(3,6);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
 
-                                <ul class="ul-tool">
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 2 à 5 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(3,6);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 5 à 7 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(3,6);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de plus de 7 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(3,6);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-outils">
+                                <div class="h3">Outils de gouvernance</div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils toutes associations</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-outils">
+                                <div class="h3">Outils de stratégie et planification</div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 0 à 2 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 2 à 5 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 5 à 7 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de plus de 7 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-outils">
+                                <div class="h3">Outils d'ingénierie de projet</div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 0 à 5 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="h4">Outils association de 5 à 7 ans</div>
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+
+                                <div class="groupe-outils">
+                                    <div class="liste-outils">
+                                        <?php $max_count = rand(1,5);?>
+                                        <?php for($i= 0; $i < $max_count; $i++):?>
+                                            <a href="#">
+                                                <div class="row">
+                                                    <div class="col-md-9"><strong>Nom de l'outil</strong></div>
+                                                    <div class="col-md-3">Type</div>
+                                                </div>
+                                            </a>
+                                        <?php endfor;?>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-document">
+
+                                <!--<ul class="ul-tool">
                                     <li > <span class="fa fa-caret-right"> <i class="fa fa-folder"></i></span> Outils d'ingénuerie de projet <a href="" class="fa fa-download pull-right"> </a></li>
                                     <ul class="sub-ul-tool">
                                         <li><i class="fa fa-file-word-o"></i> Outil 2 Monter un projet associatif ex.docx <a href="" class="fa fa-download pull-right"> </a> </li>
@@ -188,7 +395,7 @@
 
                                     </ul>
 
-                                </ul>
+                                </ul>-->
 
                             </div>
                         </div>

@@ -857,6 +857,41 @@ footer{
   }
 }
 
+.section-outils{
+  margin-bottom: 20px;
+
+  .h3{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $blue;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #eee;
+  }
+  .groupe-outils{
+    margin-bottom: 15px;
+
+    .h4{
+      text-transform: uppercase;
+      color: $green;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    a{
+      display: block;
+      padding: 5px;
+      font-size: 13px;
+    }
+    a:nth-of-type(odd){
+      background-color: #eee;
+    }
+  }
+}
+.blog-post.article{
+  padding: 10px;
+}
+
 @media (max-width: 991px) {
   .columns{
     display: inherit;
