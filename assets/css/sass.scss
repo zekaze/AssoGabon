@@ -885,12 +885,13 @@ footer{
       font-weight: 700;
     }
 
-    a{
+    a,.item{
       display: block;
       padding: 5px;
       font-size: 13px;
     }
-    a:nth-of-type(odd){
+    a:nth-of-type(odd),
+    .item:nth-of-type(odd){
       background-color: #eee;
     }
   }

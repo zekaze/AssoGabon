@@ -693,11 +693,12 @@ footer {
       color: #3cb651;
       font-size: 14px;
       font-weight: 700; }
-    .section-outils .groupe-outils a {
+    .section-outils .groupe-outils a, .section-outils .groupe-outils .item {
       display: block;
       padding: 5px;
       font-size: 13px; }
-    .section-outils .groupe-outils a:nth-of-type(odd) {
+    .section-outils .groupe-outils a:nth-of-type(odd),
+    .section-outils .groupe-outils .item:nth-of-type(odd) {
       background-color: #eee; }
 
 .blog-post.article {
