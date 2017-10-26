@@ -62,7 +62,7 @@ function kz_afficher_contenu($user_type = null){
         if (isset($_GET['s'])) {
             switch ($_GET['s']) {
                 case 'histoire':
-                    $page_content = 'inc/content_hisoire.php';
+                    $page_content = 'inc/content_histoire.php';
                     break;
                 case 'membres':
                     $page_content = 'inc/content_membres.php';
