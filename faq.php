@@ -3,7 +3,7 @@
     <section class="header-container" style="background-image:url('assets/images/bg/1.jpg'); background-size: cover ">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-7 co-xs-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2><b class="text-white">Foire aux questions</b></h2>
                     <div >
                         <ol class="header-text">

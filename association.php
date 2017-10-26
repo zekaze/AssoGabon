@@ -27,6 +27,8 @@
                                 <li <?php echo kz_set_active('general');?>><a href="?s=general"><i class="fa fa-home"></i> Accueil</a></li>
                                 <li <?php echo kz_set_active('histoire');?>><a href="?s=histoire"><i class="fa fa-clock-o"></i> Histoire</a></li>
                                 <li <?php echo kz_set_active('membres');?>><a href="?s=membres"><i class="fa fa-users"></i> Membres de l'association</a></li>
+                                <li <?php echo kz_set_active('documents');?>><a href="?s=documents"><i class="fa fa-file"></i> Documents</a></li>
+                                <li <?php echo kz_set_active('projets');?>><a href="?s=projets"><i class="fa fa-suitcase"></i> Projets</a></li>
                             </ul>
 
                         <?php include_once kz_afficher_contenu();?>

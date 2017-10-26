@@ -3,15 +3,13 @@
     <section class="header-container" style="background-image:url('https://i.ytimg.com/vi/mcC-fNVO3DM/maxresdefault.jpg'); background-size: cover ">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-7 co-xs-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2><b class="text-white">Forum</b></h2>
-                    <div>
                         <ol class="header-text">
                             <li><a href="index.php">Accueil</a> </li>
                             <li><a href="#">Communication</a> </li>
                             <li><a href="forum.php">Forum</a> </li>
                         </ol>
-                    </div>
                 </div>
             </div>
         </div>

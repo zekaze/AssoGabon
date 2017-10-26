@@ -329,6 +329,9 @@ footer {
 .tab-menu.assoc li.active a {
   background-color: #3cb651; }
 
+.tab-menu.exp li.active a {
+  background-color: #13498f; }
+
 .header-container.assoc {
   height: 300px;
   padding: 0;

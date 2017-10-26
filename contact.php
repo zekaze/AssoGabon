@@ -3,7 +3,7 @@
     <section class="header-container bg-cover" style="background-image:url('assets/images/experts/contact.jpg'); background-size: cover ">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-7 co-xs-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2><b class="text-white">Contact</b></h2>
                     <div>
                         <ol class="header-text">

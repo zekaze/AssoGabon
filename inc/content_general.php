@@ -129,29 +129,3 @@
         </a>
     <?php endfor; ?>
 </div>
-
-<div class="row">
-    <div class="col-sm-6">
-        <div class="title">
-            <h3><b class="text-green">Projets</b></h3>
-        </div>
-
-        <ul class="ul-list">
-            <li><a href="">Repellat est molestiae perferendis</a></li>
-            <li><a href="">Repellat est molestiae perferendis</a></li>
-            <li><a href="">Repellat est molestiae perferendis</a></li>
-        </ul>
-    </div>
-
-    <div class="col-sm-6">
-        <div class="title">
-            <h3><b class="text-green">documents</b></h3>
-        </div>
-
-        <ul class="ul-list">
-            <li><a href="">Repellat est molestiae perferendis<b>(2Mo)</b></a></li>
-            <li><a href="">Repellat est molestiae perferendis<b>(2Ko)</b></a></li>
-            <li><a href="">Repellat est molestiae perferendis<b>(2Go)</b></a></li>
-        </ul>
-    </div>
-</div>
