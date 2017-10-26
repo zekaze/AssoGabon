@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-12 col-sm-7 co-xs-12 text-center">
                     <h2><b class="text-white">Contact</b></h2>
-                    <div >
+                    <div>
                         <ol class="header-text">
                             <li><a href="index.php">Accueil</a> </li>
                             <li><a href="">Communication</a> </li>

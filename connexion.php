@@ -19,7 +19,7 @@
 
 
     <section id="main-container">
-        <div class="containerb">
+        <div class="container-fluid">
             <div class="row columns">
                 <div class="col-md-9" style="background: #fff; overflow: hidden;">
                     <div class="row flex-row">
@@ -495,6 +495,7 @@
                             <input type="password" class="form-input" name="sc_password">
 
                             <button type="submit" class="submit-button btn">S'identifier</button>
+                            <a class="underline" href="motdepasse.php">Mot de passe oublié?</a>
                         </form>
                     </div>
                 </div>

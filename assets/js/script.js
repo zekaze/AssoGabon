@@ -74,3 +74,41 @@ $(function () {
         $(value).removeClass('hidden');
     })
 })
+
+var bindCroppie = $('#bind_croppie'),
+    enregistrer = $('#enregistrer');
+
+bindCroppie.click(function () {
+    bindCroppie.addClass('hidden');
+    enregistrer.removeClass('hidden')
+    $('.croppie').each(function () {
+        var container = $(this),
+            img = container.attr('data-image');
+
+        container.croppie({
+            url: img,
+            viewport: container
+        });
+    })
+
+});
+
+enregistrer.click(function () {
+    var croppieResult = $('#croppie-result');
+    $('.croppie').each(function () {
+        var container = $(this),
+            img = container.attr('data-image');
+
+        container.croppie('result',{
+            type: 'canvas',
+            size: 'viewport',
+            format: 'jpeg'
+        }).then(function(html) {
+            console.log(html);
+            /*croppieResult[0].appendChild(html);*/
+        });
+    })
+})
+
+
+

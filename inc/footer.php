@@ -119,6 +119,10 @@
 <script src="assets/plugins/tinymce/tinymce.min.js"></script>
 <script src="assets/plugins/tinymce/jquery.tinymce.min.js"></script>
 
+
+<!--Croppie-->
+<script src="assets/plugins/croppie/croppie.min.js"></script>
+
 <!-- CORE JS -->
 <script type="text/javascript" src="assets/js/custom.js"></script>
 

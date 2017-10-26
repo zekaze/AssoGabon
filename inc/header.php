@@ -44,6 +44,9 @@
 
     <link href="assets/plugins/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css"/>
 
+    <!--Croppie-->
+    <link href="assets/plugins/croppie/croppie.css" rel="stylesheet" type="text/css"/>
+
     <!-- TEMPLATE CORE CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     

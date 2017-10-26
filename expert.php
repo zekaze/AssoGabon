@@ -6,6 +6,7 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
                             <h2><b class="text-white">Nom de l'expert</b></h2>
+                            <span class="type expert"><i class="fa fa-suitcase"></i> Expert</span>
                             <div>
                                 <ol class="header-text">
                                     <li class="texte-couverture">Texte de couverture</li>

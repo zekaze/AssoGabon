@@ -3,15 +3,13 @@
     <section class="header-container" style="background-image:url('assets/images/bg/1.jpg'); background-size: cover ">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-7 co-xs-12 text-center">
+                <div class="col-md-12 text-center">
                     <h2><b class="text-white">Annuaire</b> des Experts</h2>
-                    <div >
                         <ol class="header-text">
                             <li><a href="index.php">Accueil</a> </li>
                             <li><a href="#">Associations & Expert</a> </li>
                             <li class="active">Annuaire des Experts</li>
                         </ol>
-                    </div>
                 </div>
             </div>
         </div>
@@ -21,7 +19,7 @@
     <section id="main-container" style="background-color: #f3f3f5">
         <div class="container">
             <div class="row">
-                <div class="col-sm-9">
+                <div class="col-md-9">
                     <div class="page-section"  style="background-color: white">
                         <div class="head2">
                             <h3><b class="text-blue">Rechercher</b> un expert</h3>
@@ -47,30 +45,7 @@
                                 </ul>
                             </form>
 
-                            <div class="nopadding list-asso">
-                                <div class="pagination-box clearfix">
-                                    <ul class="pagination">
-                                        <li>
-                                            <a href="#" aria-label="Précédant">
-                                                <span aria-hidden="true"><i class="fa fa-caret-left"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li><span>...</span></li>
-                                        <li><a href="#">12</a></li>
-                                        <li><a href="#">13</a></li>
-                                        <li><a href="#">14</a></li>
-                                        <li>
-                                            <a href="#" aria-label="Next">
-                                                <span aria-hidden="true"><i class="fa fa-caret-right"></i></span>
-                                            </a>
-                                        </li>
-                                        <li><span class="record">10 sur 137</span></li>
-                                    </ul>
-                                </div>
+                            <div class="list-asso">
                                 <?php for ($i = 0; $i < 10; $i++): ?>
                                     <div class="blog-post">
                                         <div class="row">
@@ -91,28 +66,6 @@
                                         </div>
                                     </div>
                                 <?php endfor; ?>
-
-                                <div class="pagination-box clearfix">
-                                    <ul class="pagination">
-                                        <li>
-                                            <a href="#" aria-label="Précédant"> <span aria-hidden="true"><i class="fa fa-caret-left"></i></span> </a>
-                                        </li>
-                                        <li class="active"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li><a href="#">4</a></li>
-                                        <li> <span >...</span> </li>
-                                        <li><a href="#">12</a></li>
-                                        <li><a href="#">13</a></li>
-                                        <li><a href="#">14</a></li>
-                                        <li>
-                                            <a href="#" aria-label="Next">
-                                                <span aria-hidden="true"><i class="fa fa-caret-right"></i></span>
-                                            </a>
-                                        </li>
-                                        <li><span class="record" >10 sur 137</span></li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                     </div>
