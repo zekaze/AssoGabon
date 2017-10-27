@@ -6,7 +6,7 @@
         <div class="liste-outils">
             <?php $max_count = rand(1,5);?>
             <?php for($i= 0; $i < $max_count; $i++):?>
-                <a href="projet.php">
+                <a href="detail-opportunite.php">
                     <div class="row">
                         <div class="col-md-3">
                             <img src="assets/images/blog/1.jpg" class="img-responsive" alt="img">
