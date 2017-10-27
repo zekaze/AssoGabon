@@ -1,7 +1,7 @@
 <section class="header-container assoc" style="background-image:url('assets/images/blog/1.jpg');">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 hidden-xs text-center">
                 <h2><b class="text-white">Nom de l'association</b></h2>
                 <div>
                     <ol class="header-text">
@@ -18,7 +18,7 @@
                     <a href="#"><label for="cover-photo"><i class="fa fa-photo"></i> &nbsp; Choisir une photo de couverture</label></a>
                 </div>
             </div>
-            <input type="file" name="cover-photo" accept="image/*" id="cover-photo">
+            <input type="file" name="cover-photo" class="hidden" accept="image/*" id="cover-photo">
         </form>
 
 
@@ -27,3 +27,6 @@
         </div>
     </div>
 </section>
+<div class="visible-xs text-center nom-assoc">
+    <div class="h3">Nom de l'association</div>
+</div>
