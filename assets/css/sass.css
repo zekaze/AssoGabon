@@ -349,6 +349,39 @@ footer {
   .header-container.assoc .type.expert {
     background-color: #13498f; }
 
+.header-container {
+  background-size: cover;
+  background-position: center top; }
+  .header-container .logo {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    z-index: 10;
+    left: 20px;
+    bottom: -5px;
+    border: solid 5px #fff; }
+
+.photo-profil {
+  text-align: right;
+  position: relative;
+  width: 100%;
+  height: auto; }
+  .photo-profil label {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    cursor: pointer;
+    padding: 5px;
+    display: inline-block;
+    opacity: 0.7; }
+
+.photo-profil:hover label {
+  opacity: 1; }
+
+.visites {
+  font-size: 15px;
+  background-color: #3cb651; }
+
 #recherche-alphabetique {
   display: block;
   position: relative;

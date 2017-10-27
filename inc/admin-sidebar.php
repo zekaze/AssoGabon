@@ -1,7 +1,19 @@
 <div class="admin-sidebar">
+    <div class="widget photo-profil">
+        <form action="" enctype="multipart/form-data">
+            <img src="assets/images/default_profile.jpg" alt="Photo profil" class="img-responsive">
+
+            <label title="Changer la photode profil">
+                <i class="fa fa-lg fa-camera"></i>
+                <input type="file" class="hidden" name="photo-profil" accept="image/*">
+            </label>
+        </form>
+    </div>
     <div class="widget">
-        <img src="assets/images/association/1.jpg" alt="Logo Association" class="img-responsive">
         <h5>Bienvenue, <br><strong>Nom de l'administrateur</strong></h5>
+    </div>
+    <div class="widget text-right">
+        <span class="badge visites">1 223 visites &nbsp; <i class="fa fa-eye"></i></span>
     </div>
     <div class="widget">
         <ul class="sidebar-menu">
@@ -16,11 +28,10 @@
                 </div>
             </li>
             <li class="menu-item"><div class="accordion" data-accordion>
-                    <div data-control><i class="fa fa-envelope-o"></i> Messages <span class="badge pull-right">5</span></div>
+                    <div data-control><i class="fa fa-envelope-o"></i> Messages <span class="badge pull-right">4</span></div>
                     <div data-content>
                         <ul class="sidebar-menu">
                             <li><a href="admin-discussions.php">Discussions  <span class="badge pull-right">4</span></a></li>
-                            <li><a href="admin-messages.php">Messages visiteurs  <span class="badge pull-right">1</span></a></li>
                         </ul>
                     </div>
                 </div>

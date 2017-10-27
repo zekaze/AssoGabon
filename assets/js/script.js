@@ -93,6 +93,25 @@ bindCroppie.click(function () {
 
 });
 
+$(function () {
+    var photoProfilForm = $('.photo-profil'),
+        form = photoProfilForm.find('form'),
+        input = photoProfilForm.find('input');
+
+    input.on("change",function () {
+        form.submit();
+    })
+});
+
+$(function () {
+    var photoCoverForm = $('#cover-photo-form'),
+        input = photoCoverForm.find('input');
+
+    input.on("change",function () {
+        photoCoverForm.submit();
+    })
+});
+
 enregistrer.click(function () {
     var croppieResult = $('#croppie-result');
     $('.croppie').each(function () {
@@ -108,7 +127,7 @@ enregistrer.click(function () {
             /*croppieResult[0].appendChild(html);*/
         });
     })
-})
+});
 
 
 

@@ -5,28 +5,7 @@
                 <?php include_once 'inc/admin-sidebar.php';?>
             </div>
             <div class="col-lg-10 col-md-9">
-                <section class="header-container assoc" style="background-image:url('assets/images/bg/1.jpg'); background-size: cover;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <h2><b class="text-white">Nom de l'association</b></h2>
-                                <div>
-                                    <ol class="header-text">
-                                        <li class="texte-couverture">Bonjour, JA GABON vous accueille à bras ouverts si vous avez un projet de création d'entreprise</li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion btn" data-accordion>
-                            <div data-control><i class="fa fa-camera"></i> &nbsp; Photo de couverture</div>
-                            <div data-content>
-                                <a href="#"><i class="fa fa-crop"></i> &nbsp; Ajuster cette photo</a>
-                                <a href="#"><i class="fa fa-photo"></i> &nbsp; Choisir une photo de couverture</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
+                <?php include_once 'inc/admin-header.php';?>
                 <div class="detail-asso">
                         <h3><b>Bibliothèque multimédia</b></h3>
 
@@ -142,44 +121,46 @@
                             <li><span class="record" >10 sur 137</span></li>
                         </ul>
                     </div>
-                    <table class="table table-responsive table-striped">
-                        <tr>
-                            <th width="10%">Image</th>
-                            <th width="60%">Titre</th>
-                            <th width="10%">Type</th>
-                            <th>Date</th>
-                        </tr>
-                        <?php
-                        $demo_file_type = array(
-                            array(
-                                "Photo",
-                                "admin-edit-photo.php"
-                            ),
-                            array(
-                                "Vidéo",
-                                "admin-edit-video.php"
-                            ),
-                            array(
-                                "Document",
-                                "admin-edit-document.php"
-                            ),
-                            array(
-                                "Outil",
-                                "admin-edit-outil.php"
-                            ),
-                        );
-                        $demo_rand_num = null;
-                        ?>
-                        <?php for ($i =0; $i<10; $i++):?>
-                            <?php $demo_rand_num = rand(0,3);?>
-                            <tr class="article">
-                                <td><img src="assets/images/association/1.jpg" class="img-responsive" alt="Asso-Gabon"></td>
-                                <td><a href="<?php echo $demo_file_type[$demo_rand_num][1];?>">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
-                                <td><?php echo $demo_file_type[$demo_rand_num][0];?></td>
-                                <td class="date"><?php echo afficher_date('2017-07-29 10:22:29');?></td>
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <tr>
+                                <th width="10%">Image</th>
+                                <th width="60%">Titre</th>
+                                <th width="10%">Type</th>
+                                <th>Date</th>
                             </tr>
-                        <?php endfor;?>
-                    </table>
+                            <?php
+                            $demo_file_type = array(
+                                array(
+                                    "Photo",
+                                    "admin-edit-photo.php"
+                                ),
+                                array(
+                                    "Vidéo",
+                                    "admin-edit-video.php"
+                                ),
+                                array(
+                                    "Document",
+                                    "admin-edit-document.php"
+                                ),
+                                array(
+                                    "Outil",
+                                    "admin-edit-outil.php"
+                                ),
+                            );
+                            $demo_rand_num = null;
+                            ?>
+                            <?php for ($i =0; $i<10; $i++):?>
+                                <?php $demo_rand_num = rand(0,3);?>
+                                <tr class="article">
+                                    <td><img src="assets/images/association/1.jpg" class="img-responsive" alt="Asso-Gabon"></td>
+                                    <td><a href="<?php echo $demo_file_type[$demo_rand_num][1];?>">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></td>
+                                    <td><?php echo $demo_file_type[$demo_rand_num][0];?></td>
+                                    <td class="date"><?php echo afficher_date('2017-07-29 10:22:29');?></td>
+                                </tr>
+                            <?php endfor;?>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>

@@ -6,27 +6,6 @@
                     <?php include_once 'inc/admin-sidebar.php';?>
                 </div>
                 <div class="col-lg-10 col-md-9">
-                    <section class="header-container assoc" style="background-image:url('assets/images/bg/1.jpg'); background-size: cover;">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <h2><b class="text-white">Nom de l'association</b></h2>
-                                    <div>
-                                        <ol class="header-text">
-                                            <li class="texte-couverture">Bonjour, JA GABON vous accueille à bras ouverts si vous avez un projet de création d'entreprise</li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion btn" data-accordion>
-                                <div data-control><i class="fa fa-camera"></i> &nbsp; Photo de couverture</div>
-                                <div data-content>
-                                    <a href="#"><i class="fa fa-crop"></i> &nbsp; Ajuster cette photo</a>
-                                    <a href="#"><i class="fa fa-photo"></i> &nbsp; Choisir une photo de couverture</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
                     <div class="detail-asso">
                         <div class="title">
                             <h3><b class="text-green">Messages</b></h3>
